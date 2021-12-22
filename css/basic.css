@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.basic-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.basic-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.basic {
+    background-color: #b7b9bec5;
+    padding: 70px 0;
+}
+
+.basic-col {
+    width: 33%;
+    padding: 0 15px;
+}
+
+.list-hobbies-entr h4 {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+ul.list-hobbies-i {
+    list-style: circle;
+    margin-left: 15%;
+    column-width: 200px;
+    column-count: 3;
+    column-gap: normal;
+}
+
+
+/*responsive*/
+
+@media(max-width: 767px) {
+    .basic-col {
+        width: 20%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .basic-col {
+        width: 100%;
+    }
+}
